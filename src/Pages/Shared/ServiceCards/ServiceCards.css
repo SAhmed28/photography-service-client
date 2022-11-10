@@ -1,0 +1,9 @@
+.card img{
+    height: 15rem;
+}
+.single-service{
+    margin: 1rem 6rem;
+}
+.single-service img{
+    height: auto;
+}
