@@ -5,6 +5,8 @@ import {Link} from 'react-router-dom';
 import ServiceCards from '../../Shared/ServiceCards/ServiceCards';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Team from '../Team/Team';
+import TopReviews from '../TopReviews/TopReviews';
 
 const Home = () => {
     const size = 3;
@@ -30,10 +32,25 @@ const Home = () => {
 
             <Row>
                 <Col className='text-center my-4'>
-                    <Link to='/services'><button className='btn btn-primary'>See All</button></Link>
-                    
+                    <Link to='/services'><button className='btn btn-primary'>See All</button></Link>                   
                 </Col>
             </Row>
+
+            <Row>
+                <Col className='text-center my-4'>
+                    <TopReviews></TopReviews>                   
+                </Col>
+            </Row>
+
+
+            <Row>
+                <Col className='text-center my-4'>
+                    <Team></Team>                 
+                </Col>
+            </Row>
+
+
+               
             
         </div>
     );

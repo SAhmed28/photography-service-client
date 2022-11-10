@@ -19,7 +19,7 @@ const ServiceCards = ({ service }) => {
                         {
                             description.length > 101 ?
                                 <div className=''><p>{description.slice(0, 100) + '...'}</p> <Link to={`/services/${_id}`} className=''>
-                                    <Button variant="outline-primary">View Details</Button></Link>
+                                    <Button className='mt-3' variant="outline-primary">View Details</Button></Link>
                                 </div>
                                 :
                                 description
