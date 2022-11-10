@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+  
+ol, ul {
+    list-style: none;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+img {
+    border: 0px;
+}
+
+h1, h2, h3, h4, h5, h6, ol, ul, p, address {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.footer{
+    background: #000;
+}
+.footer p{
+    padding-top: 2rem;
+}
+.footer .first-para{
+    width: 12rem;
+}
+.footer ul{
+    padding-left: 0;
+    padding-top: 1rem;
+}
