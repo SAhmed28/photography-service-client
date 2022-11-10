@@ -2,6 +2,7 @@ import React from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import {Link} from 'react-router-dom'
 
 const Header = () => {
     return (
@@ -15,7 +16,7 @@ const Header = () => {
                         <Nav.Link href="#pricing">Pricing</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav.Link href="#deets">Login</Nav.Link>
+                        <Link to="/login">Login</Link>
                         <Nav.Link eventKey={2} href="#memes">
                             Sign up
                         </Nav.Link>
