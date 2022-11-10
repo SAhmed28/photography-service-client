@@ -14,7 +14,7 @@ const Team = () => {
                     <Card.Body className='text-center'>
                         <Card.Title>Gonzales Graves</Card.Title>
                         <Card.Text>
-                            <li class="team-icons"><Link className='mx-2' to="/"><FiLinkedin /></Link><Link className='mx-2' to="/"><FiTwitter /></Link><Link className='mx-2' to="/"><FiFacebook /></Link></li>
+                            <li className="team-icons"><Link className='mx-2' to="/"><FiLinkedin /></Link><Link className='mx-2' to="/"><FiTwitter /></Link><Link className='mx-2' to="/"><FiFacebook /></Link></li>
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -23,7 +23,7 @@ const Team = () => {
                     <Card.Body className='text-center'>
                         <Card.Title>Carey Burke</Card.Title>
                         <Card.Text>
-                            <li class="team-icons"><Link className='mx-2' to="/"><FiLinkedin /></Link><Link className='mx-2' to="/"><FiTwitter /></Link><Link className='mx-2' to="/"><FiFacebook /></Link></li>
+                            <li className="team-icons"><Link className='mx-2' to="/"><FiLinkedin /></Link><Link className='mx-2' to="/"><FiTwitter /></Link><Link className='mx-2' to="/"><FiFacebook /></Link></li>
                         </Card.Text>
                     </Card.Body>
                 </Card>
@@ -32,7 +32,7 @@ const Team = () => {
                     <Card.Body className='text-center'>
                         <Card.Title>Uttam</Card.Title>
                         <Card.Text>
-                            <li class="team-icons"><Link className='mx-2' to="/"><FiLinkedin /></Link><Link className='mx-2' to="/"><FiTwitter /></Link><Link className='mx-2' to="/"><FiFacebook /></Link></li>
+                            <li className="team-icons"><Link className='mx-2' to="/"><FiLinkedin /></Link><Link className='mx-2' to="/"><FiTwitter /></Link><Link className='mx-2' to="/"><FiFacebook /></Link></li>
                         </Card.Text>
                     </Card.Body>
                 </Card>
