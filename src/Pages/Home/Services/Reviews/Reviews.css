@@ -1,0 +1,31 @@
+.review-block{
+    border: 2px solid lightblue;
+    padding: 1rem;
+    margin: 1rem 0;
+}
+.review-block img{
+    width: 55px;
+    height: 55px;
+}
+
+.add-review{
+    margin: 0 auto;
+    padding: 3rem 0;
+    background: rgb(217, 237, 243);
+}
+.add-review h2{
+    text-align: center;
+}
+.add-review form{
+    width: 75%;
+    margin: 0 auto;
+    
+}
+.add-review p{
+    margin-top: 1rem;
+}
+.add-review a{
+    text-decoration: none;
+    font-weight: bold;
+}
+

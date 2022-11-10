@@ -15,18 +15,18 @@ const Header = () => {
     return (
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="#home">Happy Click!</Navbar.Brand>
+                <Navbar.Brand><Link className='text-light' to='/'>Happy Click!</Link></Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                        <Nav.Link href="#features">Home</Nav.Link>
-                        <Nav.Link href="#pricing">Pricing</Nav.Link>
+                        <Link to="/">Home</Link>
                     </Nav>
                     <Nav>
                         {
                             user?.email ?
                                 <div className='d-flex align items-center'>
-                                    <li className='mx-2'><Link to='/orders'>Orders</Link></li>
+                                    <li className='mx-2'><Link to='/my-reviews'>My Reviews</Link></li>
+                                    <li className='mx-2'><Link to='/add-service'>Add Service</Link></li>
                                     <li className=''><Link className='' onClick={handleLogout}>Log out</Link></li>
                                 </div>
                                 :
