@@ -12,7 +12,7 @@ const Home = () => {
     const size = 3;
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch(`http://localhost:5000/services?size=${size}`)
+        fetch(`https://photography-service-server-nu.vercel.app/services?size=${size}`)
         .then(res => res.json())
         .then(data => {
             setServices(data);
@@ -23,7 +23,7 @@ const Home = () => {
         <div>
             <Slider></Slider>
 
-            <Row xs={1} md={2} lg={3} className="g-4 mt-4">
+            <Row xs={1} md={2} lg={3} className="g-4 mt-4 mx-4">
                 {
                     services.map(service => <ServiceCards key={service._id} service={service}></ServiceCards>)
                 }
@@ -32,15 +32,15 @@ const Home = () => {
 
             <Row>
                 <Col className='text-center my-4'>
-                    <Link to='/services'><button className='btn btn-primary'>See All</button></Link>                   
+                    <Link to='/services'><button className='btn btn-primary px-4'>See All</button></Link>                   
                 </Col>
             </Row>
 
-            <Row>
+            {/* <Row>
                 <Col className='text-center my-4'>
                     <TopReviews></TopReviews>                   
                 </Col>
-            </Row>
+            </Row> */}
 
 
             <Row>

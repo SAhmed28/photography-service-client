@@ -13,20 +13,20 @@ const ServiceCards = ({ service }) => {
         <Col>
             <Card className='card'>
                 <Card.Img variant="top" src={image} />
-                <Card.Body>
-                    <Card.Title>{name}</Card.Title>
+                <Card.Body className='card-bg'>
+                    <Card.Title className='heading'>{name}</Card.Title>
                     <Card.Text>
                         {
                             description.length > 101 ?
                                 <div className=''><p>{description.slice(0, 100) + '...'}</p> <Link to={`/services/${_id}`} className=''>
-                                    <Button className='mt-3' variant="outline-primary">View Details</Button></Link>
+                                    <Button className='mt-3'>View Details</Button></Link>
                                 </div>
                                 :
                                 description
                         }
                     </Card.Text>
                 </Card.Body>
-                <Card.Footer className='d-flex justify-content-between align-items-center'>
+                <Card.Footer className='d-flex justify-content-between align-items-center '>
                     <p className='mb-0 d-flex align-items-center'><FaStar className='text-warning me-2' /> <b>{rating}</b></p>
                     <p className='mb-0'>Price: <b>{price}</b></p>
                 </Card.Footer>

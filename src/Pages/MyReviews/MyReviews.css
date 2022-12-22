@@ -1,0 +1,9 @@
+.my-reviews{
+    margin: 2rem 0rem 10rem;
+}
+.my-reviews table{
+    color: aliceblue;
+}
+.my-reviews table th{
+    font-size: 1.5rem;
+}

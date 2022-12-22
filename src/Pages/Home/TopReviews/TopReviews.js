@@ -5,12 +5,12 @@ import './TopReviews.css'
 const TopReviews = () => {
     return (
         <div>
-            <h2 className='pb-2'>What Our Clients Say about Us</h2>
+            <h2 className='pb-2 heading'>What Our Clients Say about Us</h2>
             <Carousel className='reviews'>
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://asset.fujifilm.com/www/gr/files/styles/1120x400/public/2019-08/e529ca538b291d59b4fd21776be3a222/pic_digitalcameras_01.jpg?itok=_jPWWYp-"
+                        src="https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2luZ2xlJTIwY29sb3J8ZW58MHx8MHx8&w=1000&q=80"
                         alt="First slide"
                     />
                     <Carousel.Caption>
@@ -21,7 +21,7 @@ const TopReviews = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://asset.fujifilm.com/www/gr/files/styles/1120x400/public/2019-08/e529ca538b291d59b4fd21776be3a222/pic_digitalcameras_01.jpg?itok=_jPWWYp-"
+                        src="https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2luZ2xlJTIwY29sb3J8ZW58MHx8MHx8&w=1000&q=80"
                         alt="Second slide"
                     />
 
@@ -32,7 +32,7 @@ const TopReviews = () => {
                 <Carousel.Item>
                     <img
                         className="d-block w-100"
-                        src="https://asset.fujifilm.com/www/gr/files/styles/1120x400/public/2019-08/e529ca538b291d59b4fd21776be3a222/pic_digitalcameras_01.jpg?itok=_jPWWYp-"
+                        src="https://images.unsplash.com/photo-1557682250-33bd709cbe85?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8c2luZ2xlJTIwY29sb3J8ZW58MHx8MHx8&w=1000&q=80"
                         alt="Third slide"
                     />
 

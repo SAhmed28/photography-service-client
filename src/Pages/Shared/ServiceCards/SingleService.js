@@ -12,7 +12,7 @@ const SingleService = () => {
     const { _id, name, image, rating, price, description } = service;
 
     useEffect(() => {
-        fetch('http://localhost:5000/reviews')
+        fetch('https://photography-service-server-nu.vercel.app/reviews')
         .then(res => res.json())
         .then(data => {
             setReviews(data);

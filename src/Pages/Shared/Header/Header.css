@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+body{
+    background-image: linear-gradient(#0E1428 , #5031ba) !important;
+    /* background: #0E1428 !important; */
+    color: #fff;
+}
+h2, .form-label, form p{
+    color: #fff !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+.gradient-bg{
+    background-image: linear-gradient(to right, #2e22ac , #e34c9d);
+}
+.card-body{
+    background: #E8E9F3;
+}
+.card-footer{
+    background: #0EB1D2 !important;
+}
+.heading{
+    color: #0EB1D2;
+}
+/* button{
+    background: #0EB1D2;
+    color: #0E1428;
+    padding: 0.4rem 1.5rem;
+    border: 1px solid #0EB1D2;
+    border-radius: 30px;
+} */

@@ -1,6 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../contexts/AuthProvider/AuthProvider';
 import MyReviewsRow from './MyReviewsRow';
+import './MyReviews.css'
 
 const MyReviews = () => {
     const { user, logout } = useContext(AuthContext);
@@ -8,7 +9,7 @@ const MyReviews = () => {
     const [errorMessage, setErrorMessage] = useState(null)
 
     useEffect(() => {
-        fetch(`http://localhost:5000/reviews?email=${user?.email}`)
+        fetch(`https://photography-service-server-nu.vercel.app/reviews?email=${user?.email}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data);
@@ -24,7 +25,7 @@ const MyReviews = () => {
     const handleDelete = id => {
         const proceed = window.confirm("Are you sure you want to cancel this order?");
         if (proceed) {
-            fetch(`http://localhost:5000/reviews/${id}`, {
+            fetch(`https://photography-service-server-nu.vercel.app/reviews/${id}`, {
                 method: 'DELETE'
             })
                 .then(res => res.json())
@@ -56,7 +57,7 @@ const MyReviews = () => {
 
 
     return (
-        <div>
+        <div className='my-reviews'>
             <div className="overflow-x-auto w-full">
                 {
                     errorMessage === "No reviews were added!" ? <h2 className='text-center my-4'>{errorMessage}</h2>

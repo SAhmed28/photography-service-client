@@ -34,7 +34,7 @@ const AddReview = ({id}) => {
         };
 
 
-        fetch('http://localhost:5000/review', {
+        fetch('https://photography-service-server-nu.vercel.app/review', {
             method : 'POST',
             headers: {
                 'content-type': 'application/json',

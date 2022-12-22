@@ -4,6 +4,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import { Link } from 'react-router-dom'
 import { AuthContext } from '../../../contexts/AuthProvider/AuthProvider';
+import './Header.css'
 
 const Header = () => {
     const {user, logout} = useContext(AuthContext);
